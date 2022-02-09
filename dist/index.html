@@ -5,13 +5,21 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Weather App</title>
+    <link rel="stylesheet" href="styles/styles.css">
 </head>
 <body>
-    <form>
-        <input type="text" id="getWeatherData" name="getWeatherData" placeholder="Enter Location">
-        <button type="submit" id="submitWeather" name="submitWeather">Submit</button>
-    </form>
-    <div id="container"></div>
+    <div id="weatherContainer">
+        <h1>Weather App</h1>
+        <form>
+            <input type="text" id="getWeatherData" name="getWeatherData" placeholder="Enter Location">
+            <input type="radio" id="celsius" name="unit" value="metric" checked>
+            <label for="celsius">Celsius</label>
+            <input type="radio" id="farenheit" name="unit" value="imperial">
+            <label for="farenheit">Farenheit</label>
+            <button type="submit" id="submitWeather" name="submitWeather">Submit</button>
+        </form>
+        <div id="container"></div>
+    </div>
     
     <script src='main.js'></script>
 </body>
