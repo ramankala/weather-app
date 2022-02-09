@@ -18,3 +18,4 @@ In order to use the app, enter any city in the search bar and select an option o
 
 To access the app, click on the following link:
 
+https://ramankala.github.io/weather-app/
